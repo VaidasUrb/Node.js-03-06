@@ -8,7 +8,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 //     res.send('<h1>Titulinis</h1>')
 // })
 
-app.get('/', function (req, res) {
+app.get('/pagrindinis', function (req, res) {
     res.sendFile(__dirname + '/templates/index.html')
 })
 
